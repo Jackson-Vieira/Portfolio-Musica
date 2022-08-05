@@ -5,67 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Portfólio</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
 
-    
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  
   </head>
   <body>
     
@@ -79,91 +24,99 @@
 
 <main>
   
-  <div class="p-5 mb-4 bg-light rounded-3">
-    <div class="container-fluid py-5">
-      <h1 class="display-5 fw-bold ">Ritmo Nordestino </h1>
-      <!-- Frase inspiradora  -->
-        <blockquote class="blockquote">
-            <p>
-              Eu vou mostrar pra vocês
-              <br>
-              Como se dança o baião
-              <br>
-              E quem quiser aprender
-              <br>
-              É favor prestar atenção
-            </p>
-          <footer class="blockquote-footer">Luiz Gonzaga </footer>
-        </blockquote>
 
-      </p>
+  <section class="rounded-3 text-center py-5">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 container-fluid py-5">
+        <h1 class="fw-light ">RITMO NORDESTINO</h1>
+        <p class="lead text-muted">Turma do 2° Informática vespertino</p> 
+
+       
+
+      </div>
+    </div>
+  </section>
+
+  <div class="p-5 mb-4 bg-light rounded-3  ">
+    <div class="container-fluid py-5">
+      <figure>
+        <blockquote class="blockquote">
+          <p class="lead">
+            Eu vou mostrar pra vocês
+            <br>
+            Como se dança o baião
+            <br>
+            E quem quiser aprender
+            <br>
+            É favor prestar atenção 
+          </p>
+      </blockquote>
+        <footer class="blockquote-footer lead">
+          <cite title="Source Title">Luiz gonzaga</cite>
+        </footer>
+      </figure>
     </div>
   </div>
+
+
 
 
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Integrantes</h1>
+        <h1 class="fw-light">EQUIPE</h1>
       </div>
     </div>
   </section>
 
-  <div class="container marketing">
+  <div class="container">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
+    <div class="row row-cols-2">
       <div class="col-lg-4">
         <img  width="140" height="140" src="\images\jackson.jpg" class="rounded-circle" alt="peaga">
 
         <h2 class="fw-normal">Jackson</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p class="lead"><small></small>@jackson.svieira.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img  width="140" height="140" src="\images\tatiane.jpg" class="rounded-circle" alt="peaga">
-
           <h2 class="fw-normal">Tatiane</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          <p class="lead"><small>@a.tatianefernandes</small></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img  width="140" height="140" src="\images\avala.jpg" class="rounded-circle" alt="peaga">
-
           <h2 class="fw-normal">Avála</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p class="lead"><small>@camile.queirozz</small></p>
         </div><!-- /.col-lg-4 -->
-
-      </div><!-- /.row -->
-      <div class="row">
         <div class="col-lg-4">
           <img  width="140" height="140" src="\images\abinadabe.jpg" class="rounded-circle" alt="peaga">
           <h2 class="fw-normal">Abinadabe</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p class="lead"><small>@_abinadabearauo</small></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img  width="140" height="140" src="\images\rian.jpg" class="rounded-circle" alt="peaga">
           <h2 class="fw-normal">Rian</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          <p class="lead"><small>@rian_henrique09</small></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img  width="140" height="140" src="\images\mv.jpg" class="rounded-circle" alt="peaga">
           <h2 class="fw-normal">Maria Vitoria</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p class="lead "><small>@vittoria_ferr</small></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img  width="140" height="140" src="\images\pedro.jpg" class="rounded-circle" alt="peaga">
-          <h2 class="fw-normal">Peaga</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
+          <h2 class="fw-normal">Pedro H</h2>
+          <p class="lead"><small>@pedrohenrique_sena</small></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
-   
   </div>
   <!-- /.container -->
 
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2022 Infovesp2, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 
