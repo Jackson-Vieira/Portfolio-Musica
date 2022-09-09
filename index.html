@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web Portfólio</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
@@ -12,42 +13,84 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   
-  <body>
-    
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-          <span class="navbar-brand"> Ritmo Nordestino </span> 
-        </div>
-      </nav>
-    
-    </header>
+<body>
 
-<main>
-  
-  <section class="rounded-3 text-center py-5">
-    <div class="py-lg-5">
-      <div class="col-lg-6 col-md-8 container py-5">
-        <h1 class="fw-light ">RITMO NORDESTINO</h1>
+    <nav class="navbar navbar-expand-md navbar-dark border-bottom style="background-color: rgb(0, 0, 0);">
+      <div class="container-fluid">
+        <span class="navbar-brand"> Ritmo Nordestino </span> 
+      </div>
+    </nav>
+
+  <main>
+    <div class="container d-flex justify-content-center  align-items-center mt-4" id="header">
+      <div class="">
+        <h1 class="fw-light display-4">RITMO NORDESTINO</h1>
         <p class="lead text-muted">Turma do 2° Informática vespertino</p> 
       </div>
-    </div>
-  </section>
+   </div>
 
-  <div class="p-5 mb-4 bg-light rounded-3  ">
-    <div class="container py-5">
+<div class="container">
+  <div class="row mt-4 p-5 mb-4 p-3 " >
+    <div class="col card shadow-lg p-3 mb-5 card-body rounded-3 mx-5 mb-4" style="width: 18rem; background-color: rgb(50, 50, 50)">
+          <figure>
+            <blockquote class="blockquote text-light">
+              <p class="lead">
+                Eu vou mostrar pra vocês
+                <br>
+                Como se dança o baião
+                <br>
+                E quem quiser aprender
+                <br>
+                É favor prestar atenção 
+              </p>
+          </blockquote>
+            <footer class="blockquote-footer lead">
+              <cite title="Source Title">Luiz gonzaga</cite>
+            </footer>
+          </figure>
+    </div>
+
+    <div class="col card shadow-lg p-3 mb-5 card-body rounded-3 mx-5 " style="width: 18rem; background-color: rgb(50, 50, 50)">
+        <figure >
+          <blockquote class="blockquote text-light">
+            <p class="lead">
+              Vida boa vida alegre,
+              <br>
+              minha vida é um pagode,
+              <br>
+              Me criei roubando cabra,
+              <br>
+              vou morrer roubando bode.
+            </p>
+        </blockquote>
+          <footer class="blockquote-footer lead">
+            <cite title="Source Title">Luiz gonzaga</cite>
+          </footer>
+        </figure>
+    </div>
+
+    <div class="col card shadow-lg p-3 mb-5  rounded card-body rounded-3 mx-5 mb-4" style="width: 18rem; background-color: rgb(50, 50, 50)">
       <figure>
-        <blockquote class="blockquote">
+        <blockquote class="blockquote text-light">
           <p class="lead">
-            Eu vou mostrar pra vocês
+            Minha vida é andar
             <br>
-            Como se dança o baião
+            Por esse país
             <br>
-            E quem quiser aprender
+            Para ver se um dia
             <br>
-            É favor prestar atenção 
+            Descanso feliz
+            <br>
+            Guardando as recordações
+            <br>
+            Das terras por onde passei
+            <br>
+            Andando pelos sertões
+            <br>
+            E dos amigos que lá deixei.
           </p>
       </blockquote>
         <footer class="blockquote-footer lead">
@@ -55,19 +98,38 @@
         </footer>
       </figure>
     </div>
+    
+
   </div>
-  
+</div>
+
+
+  <div class="container-fluid" style="background-color: rgb(0, 0, 0);">
+    <div class="row row-cols-1">
+      <div class="col  shadow rounded" id="spotify-player">
+        <iframe style="border-radius:15px" src="https://open.spotify.com/embed/track/2kJRlOyrxsy7Ot3c5TZ8Q6?utm_source=generator&theme=0"  width="100%" height="200px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>      </div>
+      <div class="col  shadow rounded  " id="spotify-player" >
+        <iframe style="border-radius:15px;" src="https://open.spotify.com/embed/track/6770VpNwRiV1fKMFjnhvmQ?utm_source=generator&theme=0" width="100%" height="200px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+      <div class="col  shadow rounded" id="spotify-player">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4knTOXehBv888gYMiMkwUu?utm_source=generator&theme=0" width="100%" height="200px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+      <div class="col  shadow rounded" id="spotify-player">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5iehR5VxXMZpQ5MAmlY68f?utm_source=generator&theme=0" width="100%" height="200px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+    </div>
+  </div>
 
   <div class="container text-center ">
     <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
+      <div class="col-lg-6 col-md-8 mx-auto mb-5">
         <h1 class="fw-light">ARTISTAS NORDESTINOS </h1>
+        
       </div>
     </div>
-    <hr class="featurette-divider">
-    </div>
+  </div>
 
-    
+
   <!-- CAROUSEL -->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
@@ -77,13 +139,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/test1.jpg" class="d-block w-100" alt="...">
+        <img src="images/carousel/luiz.jpg" class="d-block w-100" alt="Luiz">
       </div>
       <div class="carousel-item">
-        <img src="images/test2.jpg" class="d-block w-100" alt="...">
+        <img src="images/carousel/alceu.jpg" class="d-block w-100" alt="Alceu">
       </div>
       <div class="carousel-item">
-        <img src="images/test3.jpg" class="d-block w-100" alt="...">
+        <img src="images/carousel/jackson.jpg" class="d-block w-100" alt="Jackson do bandeiro">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -98,18 +160,18 @@
 
   <!-- ENDCAROUSEL-->
 
+  <div id="posts">
+
   
   <div class="container">
 
     <div class="text-center">
       <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="col-lg-6 col-md-8 mx-auto my-5">
           <h1 class="fw-light">CURIOSIDADES</h1>
         </div>
       </div>
     </div>
-
-  <hr class="featurette-divider">
 
   <div class="container row featurette">
     <div class="col-md-7">
@@ -121,14 +183,14 @@
         As músicas de João Gomes estão dentro de um dos estilos mais ouvidos no brasil atual: o piseiro.
       </p>
     </div>
-    <div class="col-md-5">
-      <img class="img-fluid image-content" src="images/500x500.jpg" alt="Joao Gomes">
+
+  <div class="col-md-5">
+      <img class="img-fluid image-content rounded-3" src="images/posts/joao_gomes.jpg" alt="Joao Gomes">
     </div>
   </div>
 
-  <hr class="featurette-divider">
 
-  <div class="container row featurette">
+  <div class="container row featurette my-5">
     <div class="col-md-7 order-md-2">
       <h2>Matruz com leite </h2>
       <p class="lead">Mastruz com Leite é uma banda brasileira de forró, da cidade de Fortaleza, 
@@ -136,13 +198,13 @@
         "mãe do forró eletrônico" e a maior banda do gênero musical no país.</p>
     </div>
     <div class="col-md-5 order-md-1">
-      <img class="img-fluid image-content" src="images/500x500.jpg" alt="Joao Gomes">
+      <img class="img-fluid image-content rounded-3" src="images/posts/matruz_com_leite.jpg" alt="Matruz com leite">
     </div>
   </div>
 
-  <hr class="featurette-divider">
 
-  <div class="container row featurette">
+
+  <div class="container row featurette my-5">
     <div class="col-md-7">
       <h2>Baião</h2>
       <p class="lead ">Baião é um gênero de música e dança popular da região Nordeste do 
@@ -151,12 +213,13 @@
         viola caipira, triângulo, flauta doce e acordeão </p>
     </div>
     <div class="col-md-5">
-      <img class="img-fluid image-content" src="images/500x500.jpg" alt="Joao Gomes">
+      <img class="img-fluid image-content rounded-3" src="images/posts/luiz_gonzaga.jpg" alt="Luiz gonzaga">
     </div>
   </div>
 
-  <hr class="featurette-divider">
+</div>
 
+  <hr class="featurette-divider">
     <!-- Three columns of text below the carousel -->
     <div class="container text-center ">
     <div class="row py-lg-5">
@@ -167,60 +230,54 @@
     </div>
 
     <br>
-
-    <div class="container row row-cols-2 text-center">
-
-      
-
-      <div class="col-lg-4">
-        <img  width="140" height="140" src="images/jackson.jpg" class="rounded-circle" alt="Jackson">
-
-        <h2 class="fw-normal">Jackson</h2>
-        <p class="lead"><small>@jackson.svieira</small></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img  width="140" height="140" src="images/tatiane.jpg" class="rounded-circle" alt="Tatiane">
-          <h2 class="fw-normal">Tatiane</h2>
-          <p class="lead"><small>@a.tatianefernandes</small></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img  width="140" height="140" src="images/avala.jpg" class="rounded-circle" alt="Avála">
-          <h2 class="fw-normal">Avála</h2>
-          <p class="lead"><small>@camile.queirozz</small></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img  width="140" height="140" src="images/abinadabe.jpg" class="rounded-circle" alt="Abinadabe">
-          <h2 class="fw-normal">Abinadabe</h2>
-          <p class="lead"><small>@_abinadabearauo</small></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img  width="140" height="140" src="images/rian.jpg" class="rounded-circle" alt="Rian">
-          <h2 class="fw-normal">Rian</h2>
-          <p class="lead"><small>@rian_henrique09</small></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img  width="140" height="140" src="images/mv.jpg" class="rounded-circle" alt="Maria V">
-          <h2 class="fw-normal">Maria Vitoria</h2>
-          <p class="lead "><small>@vittoria_ferr</small></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img  width="140" height="140" src="images/pedro.jpg" class="rounded-circle" alt="Pedro H">
-          <h2 class="fw-normal">Pedro H</h2>
-          <p class="lead"><small>@pedrohenrique_sena</small></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
     
-  </div>
+    <div class="container">
+      <div class="row row-cols-2 justify-content-center text-center">
+          <div class="col-lg-4">
+            <img  width="140" height="140" src="images/equipe/jackson.jpg" class="rounded-circle" alt="Jackson">
+            <h2 class="fw-normal">Jackson</h2>
+            <p class="lead"><small>@jackson.svieira</small></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img  width="140" height="140" src="images/equipe/pedro.jpg" class="rounded-circle" alt="Pedro H">
+            <h2 class="fw-normal">Pedro H</h2>
+            <p class="lead"><small>@pedrohenrique_sena</small></p>
+          </div><!-- /.col-lg-4 -->
+          
+          <div class="col-lg-4">
+            <img  width="140" height="140" src="images/equipe/avala.jpg" class="rounded-circle" alt="Avála">
+            <h2 class="fw-normal">Avála</h2>
+            <p class="lead"><small>@camile.queirozz</small></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img  width="140" height="140" src="images/equipe/abinadabe.jpg" class="rounded-circle" alt="Abinadabe">
+            <h2 class="fw-normal">Abinadabe</h2>
+            <p class="lead"><small>@_abinadabearauo</small></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img  width="140" height="140" src="images/equipe/rian.jpg" class="rounded-circle" alt="Rian">
+            <h2 class="fw-normal">Rian</h2>
+            <p class="lead"><small>@rian_henrique09</small></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img  width="140" height="140" src="images/equipe/mv.jpg" class="rounded-circle" alt="Maria V">
+            <h2 class="fw-normal">Maria Vitoria</h2>
+            <p class="lead "><small>@vittoria_ferr</small></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img  width="140" height="140" src="images/equipe/tatiane.jpg" class="rounded-circle" alt="Tatiane">
+            <h2 class="fw-normal">Tatiane</h2>
+            <p class="lead"><small>@a.tatianefernandes</small></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+    </div>
+    
   <!-- /.container -->
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
+  </main>
+   <!-- FOOTER -->
+  <footer class="container text-center pt-5">
+    <p class="">Made by <a href="https://www.instagram.com/jackson.svieira/">@jackson.svieira</a></p>
   </footer>
-</main>
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-      
   </body>
 </html>
