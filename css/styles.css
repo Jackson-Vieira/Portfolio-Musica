@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Roboto:wght@300;500&display=swap');
 
 body{
-  background-color: rgb(0, 0, 0);
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
   color: rgb(248, 248, 248);
   font-family: 'Roboto';
 }
@@ -11,6 +11,25 @@ body h1, h2, h3, h4, h5, h6{
   font-weight: bold;
 }
 
-#header{
+#container-notes blockquote p{
+  color: 	white;
+  font-size: medium;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container-notes footer{
+  color: 	darkgrey;
+ 
+}
+
+#header {
   height: 50vh;
+}
+
+#header h1{
+  font-size: 40px;
+}
+
+.spotify-player{
+  height: 85px;
 }
