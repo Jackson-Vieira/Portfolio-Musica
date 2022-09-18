@@ -6,4 +6,4 @@
 
 ![equipe](public/readme/equipe.png)
 
-<a href="https://jackson-vieira.github.io/Portifolio-Musica/"> LINK! </a>
+<a href="https://jackson-vieira.github.io/Portfolio-Musica/"> LINK! </a>
